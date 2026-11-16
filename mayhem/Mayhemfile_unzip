@@ -1,0 +1,9 @@
+project: savantenvs/Mudlet
+target: unzip
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/unzip/testsuite
+cmds:
+  - cmd: /mayhem/unzip
+    libfuzzer: true
+    timeout: 30

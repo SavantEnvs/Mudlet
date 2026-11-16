@@ -1,0 +1,2 @@
+72a239146b07fc3b94f9e96955d2d6d52a6f0f40c8a5b7ee314b0bf875a55611  Mudlet-4.22.0-ptb-2026-08-01-dfdcb137-linux-x64.AppImage.tar
+9b3895247937d37f645dd31e7ded739e3126ccad6bfa4188cdd3b78f735c2f6f *Mudlet-4.22.0-ptb-2026-08-02-dfdcb137rebuild2-windows-64.exe

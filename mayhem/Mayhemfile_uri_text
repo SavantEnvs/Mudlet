@@ -1,0 +1,9 @@
+project: savantenvs/Mudlet
+target: uri_text
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/uri_text/testsuite
+cmds:
+  - cmd: /mayhem/uri_text
+    libfuzzer: true
+    timeout: 30

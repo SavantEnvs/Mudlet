@@ -1,0 +1,9 @@
+project: savantenvs/Mudlet
+target: release_feed
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/release_feed/testsuite
+cmds:
+  - cmd: /mayhem/release_feed
+    libfuzzer: true
+    timeout: 30

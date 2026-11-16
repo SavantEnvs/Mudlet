@@ -1,0 +1,9 @@
+project: savantenvs/Mudlet
+target: mxp
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/mxp/testsuite
+cmds:
+  - cmd: /mayhem/mxp
+    libfuzzer: true
+    timeout: 30
